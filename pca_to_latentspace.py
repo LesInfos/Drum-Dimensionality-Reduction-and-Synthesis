@@ -11,7 +11,7 @@ weights = 1/(distances+1e-3)            #regularize to avoid division by 0
 min_entries = np.argpartition(distances,k-1)[:k]
 min_std, min_pca, min_wts = standardized_vecs[min_entries], pca_vecs[min_entries], weights[min_entries]
 
-reg_wts = min_wts / min_wts.sum(axis=0) # make weights sum to 1
+reg_wts = (min_wts / min_wts.sum(axis=0)).reshape(k, 1)# make weights sum to 1
 synth_pt = np.sum(reg_wts * min_std,axis=0)
 
 np.save("user_pt.npy",synth_pt)
