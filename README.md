@@ -12,3 +12,4 @@ Due to the size of the trained model, the RAVE folder is provided here as a Goog
 How to run:
 1. Download the RAVE_COLLAB folder and upload it to the root directory of your own Google Drive.
 2. Open the RAVE notebook in Colab and follow the instructions.
+3. To generate visualizations, run the DICML python notebook from start to finish
