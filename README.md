@@ -2,5 +2,7 @@
 Drum Dimensionality Reduction & Synthesis: Eric Zhang, Rubin Luitel, Risheek Pingili, Derek Guo
 
 Link to dataset: https://drive.google.com/drive/folders/1KE7COA3D_HRFNRPNgxT1ziIELqQHsjhK?usp=sharing
+
 The dataset can either be downloaded if the model is run locally, or added to the content drive if the model is being run on Google Collab
+
 How to run:
