@@ -8,5 +8,5 @@ The dataset can either be downloaded if the model is run locally, or added to th
 Due to the size of the trained model, the RAVE Colab folder is provided here as a Google Drive link.
 
 How to run:
-1. Download the RAVE_COLLAB folder and upload it to the root directory your own Google Drive.
+1. Download the RAVE_COLLAB folder and upload it to the root directory of your own Google Drive.
 2. Open the RAVE notebook in Colab and follow the instructions.
